@@ -1,0 +1,6 @@
+numpy
+tensorflow-gpu>=2.1
+tensorflow-addons
+tensor-flow-probability
+foolbox
+pickle-mixin
