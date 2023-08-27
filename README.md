@@ -4,6 +4,12 @@ This is the code repository of the following paper: Balance is Essence: Accelera
 
 The folders named `A-BSR-Net`, `A-ITOP`, and `A-RigL` include codes for BSR-Net-based, ITOP-based, and RigL-based models, respectively. For detailed instructions on using the code, see `README.md` in each folder.
 
+Parts of this code repository is based on the following works by the machine learning community.
+
+* https://github.com/IGITUGraz/SparseAdversarialTraining
+* https://github.com/Shiweiliuiiiiiii/In-Time-Over-Parameterization
+* https://github.com/varun19299/rigl-reproducibility
+
 ## BSR-Net
 
 Bayesian Sparse Robust Training (BSR-Net) is a Bayesian Sparse and Robust training pipeline. Based on a Bayesian posterior sampling principle, a network rewiring process simultaneously learns the sparse connectivity structure and the robustness-accuracy trade-off based on the adversarial learning objective. More specifically, regarding its mask update, it prunes all negative weights and grows new weights randomly.

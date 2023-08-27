@@ -6,15 +6,6 @@ Parts of this code repository is based on the following works by the machine lea
 
 * https://github.com/varun19299/rigl-reproducibility
 
-
-<span class="img_container center" style="display: block;">
-    <p align="center">
-    <img alt="RigL main image" height=350 src="img/dyn_sparse_train.png" style="display:block; margin-left: auto; margin-right: auto;" title="caption" />
-    <br />
-    <span class="img_caption" style="display: block; text-align: center;">Figure Courtsey: Evci et al. 2020.</span>
-    </p>
-</span>
-
 ## Getting Started
 
 <details><summary><b>Install</b></summary>
