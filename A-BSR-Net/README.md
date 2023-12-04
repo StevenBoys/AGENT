@@ -1,8 +1,6 @@
 # Balance is Essence: Accelerating Sparse Training via Adaptive Gradient Correction
 
-This is the code repository of BSR-Net-based models in the following paper: Balance is Essence: Accelerating Sparse Training via Adaptive Gradient Correction.
-
-Currently the repository supports sparse training of models with the robust training objectives presented in the paper, as well as saved model weights of the adversarially trained sparse networks that are presented.
+This is the code for repository of BSR-Net-based models in the following paper: Balance is Essence: Accelerating Sparse Training via Adaptive Gradient Correction.
 
 Parts of this code repository is based on the following works by the machine learning community.
 
@@ -10,7 +8,7 @@ Parts of this code repository is based on the following works by the machine lea
 
 ## Setup
 
-The code is based on [TensorFlow 2](https://www.tensorflow.org/install). You can install all required packages by:
+You can install all required packages by:
 ```bash
 pip install -r requirements.txt
 ```

@@ -12,12 +12,12 @@ Parts of this code repository is based on the following works by the machine lea
 
 ## BSR-Net
 
-Bayesian Sparse Robust Training (BSR-Net) is a Bayesian Sparse and Robust training pipeline. Based on a Bayesian posterior sampling principle, a network rewiring process simultaneously learns the sparse connectivity structure and the robustness-accuracy trade-off based on the adversarial learning objective. More specifically, regarding its mask update, it prunes all negative weights and grows new weights randomly.
+BSR-Net is a Bayesian sparse training method that also takes into account the adversarial training. It is proposed in paper [Training Adversarially Robust Sparse Networks via Bayesian Connectivity Sampling](https://proceedings.mlr.press/v139/ozdenizci21a.html), published at ICML 2021. 
 
 ## ITOP
 
-ITOP is a recent pipeline for dynamic sparse training, which uses sufficient and reliable parameter exploration to achieve in-time over-parameterization and find well-performing sparse models. 
+ITOP is a sparse training method that uses sufficient and reliable parameter exploration to achieve in-time over-parameterization and find well-performing sparse models. It is proposed in paper [Do We Actually Need Dense Over-Parameterization? In-Time Over-Parameterization in Sparse Training](https://arxiv.org/abs/2102.02887), published at ICML 2021. 
 
 ## RigL
 
-RigL is a popular dynamic sparse training method that uses weight and gradient magnitudes to learn the connections. 
+RigL is a popular sparse training method that uses weight and gradient magnitudes to learn the connections. It is proposed in paper [Rigging the Lottery: Making all Tickets Winners](https://arxiv.org/abs/1911.11134), published at ICML 2020. 
