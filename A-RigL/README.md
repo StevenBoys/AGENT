@@ -10,7 +10,7 @@ Parts of this code repository is based on the following works by the machine lea
 
 This code requires python3.8 and pytorch: 1.7.0+ (GPU support preferable).
 
-Then, 
+Then, run this command
 ```bash
 make install
 ```
